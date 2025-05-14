@@ -1,0 +1,108 @@
+/* body */
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #2a88d5;
+  color: chartreuse;
+  padding: 25px;
+  text-align: center;
+}
+header img {
+  border-radius: 250%;
+  width: 180px;
+  height: 180px;
+}
+
+/* Bagian konten */
+section {
+  max-width: 800px;
+  margin: 25px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 10px 5px 15px rgba(0,0,0,0.1);
+}
+h2 {
+  border-bottom: 3px solid #333;
+  padding-bottom: 5px;
+}
+
+.Skills {
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+}
+
+.Skills li {
+    
+    background-color: #f0f0f0;
+     margin: 10px 0;
+     padding: 10px 15px;
+     border-radius: 150px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1e82e7;
+  color: chartreuse;
+}
+
+/* Link */
+a {
+  color: #2845d5;
+}
+
+/* layout mobile */
+@media (min-width: 481px) and (max-width:786px) {
+  header img {
+    width: 120px;
+    height: 120px;
+  }
+  section {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+/* Layout tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+ section {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .Skills li {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  header img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Layout Desktop */
+@media (min-width: 1025px) {
+section {
+    max-width: 1000px;
+    padding: 30px;
+  }
+
+  .Skills li {
+    font-size: 18px;
+    padding: 15px 25px;
+  }
+
+  header img {
+    width: 180px;
+    height: 180px;
+  }
+}
